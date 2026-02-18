@@ -11,7 +11,3 @@ The refresh check used a narrow condition that treated non-`OAuth2Token` values 
 ## Why does your fix solve it?
 
 The refresh condition now treats missing tokens, non-`OAuth2Token` values, and expired tokens as requiring a refresh. That ensures a valid `OAuth2Token` exists before adding the `Authorization` header.
-
-## One realistic case / edge case your tests still don’t cover
-
-The tests do not cover refresh failures (for example, a network error or invalid credentials) and how the client should respond when refresh cannot complete.
