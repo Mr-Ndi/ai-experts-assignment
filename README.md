@@ -61,6 +61,7 @@ Your tasks:
 
 1. Build the image: `docker build -t ai-experts .`
 2. Run tests: `docker run --rm ai-experts`
+3. Docker Hub image: https://hub.docker.com/r/ninshuti/ai-expert-assignment
 
 ### 5) EXPLANATION.md (required)
 
