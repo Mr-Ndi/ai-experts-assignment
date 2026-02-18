@@ -50,6 +50,18 @@ Your tasks:
 - Do not introduce extra tooling unless required.
 - You may add tests and the smallest code change needed to fix the bug.
 
+## Running tests
+
+### Local
+
+1. Install dependencies: `python -m pip install -r requirements.txt`
+2. Run tests: `python -m pytest -v`
+
+### Docker
+
+1. Build the image: `docker build -t ai-experts .`
+2. Run tests: `docker run --rm ai-experts`
+
 ### 5) EXPLANATION.md (required)
 
 Create `EXPLANATION.md` (max 250 words) containing:
